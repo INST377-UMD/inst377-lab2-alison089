@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Lab 2 Assignment by Alison Wu!</title>
+    <style>
+      body {
+        background-color: bisque;
+      }
+      h1 {
+        text-align: center;
+      }
+      .contactUs {
+        margin: 20px;
+      }
+      label {
+        font-size: 15px;
+      }
+      input[type="text"] {
+        margin: 2px;
+      }
+      input[type="submit"] {
+        background-color: yellowgreen;
+        color: violet;
+        margin: 10px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>INST377 - Lab 2: Contact Me Form</h1>
+    <form
+      name="contact Form"
+      method="get"
+      action="INST377-Alison Wu_Lab2_FormSucess.html"
+    >
+      <div class="contactUs">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required />
+        <br />
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required />
+        <br />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
